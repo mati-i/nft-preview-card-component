@@ -1,0 +1,106 @@
+body {
+  background: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  color: white;
+  font-size: 62.5%;
+}
+
+.attribution {
+  float: right;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 0.7rem;
+}
+
+.equilibrium-article {
+  background: hsl(216, 50%, 16%);
+  width: 220px;
+  height: 380px;
+  padding: 1.1rem;
+  border-radius: 4%;
+  box-shadow: 0.6rem 0.9rem rgba(17, 17, 17, 0.288),
+    -0.7rem 0.9rem rgba(17, 17, 17, 0.301);
+}
+.equilibrium-article img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.equilibrium-article__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details__value img {
+  width: 0.6rem;
+  height: 1rem;
+  margin-right: 5px;
+}
+
+.details__value {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: hsl(178, 100%, 50%);
+  font-size: 0.8rem;
+}
+
+.details__clock img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 4px;
+}
+
+.details__clock {
+  display: flex;
+  justify-content: space-between;
+  color: hsl(215, 51%, 70%);
+  font-size: 0.8rem;
+}
+
+.shadow {
+  border-radius: 4%;
+  box-shadow: 0rem 1rem 0 30px rgba(17, 17, 17, 0.068),
+    0rem 1rem 0 20px rgba(17, 17, 17, 0.068);
+}
+
+.separator {
+  border-top: 1px solid hsl(215, 32%, 27%);
+  height: 2px;
+  max-width: 100%;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.footer img {
+  border: 1px solid white;
+  max-width: 10%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 3px;
+}
